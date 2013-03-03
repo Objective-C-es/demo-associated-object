@@ -18,6 +18,8 @@
 		D313EE3716E3AC8D00353908 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D313EE3616E3AC8D00353908 /* Default-568h@2x.png */; };
 		D313EE3A16E3AC8D00353908 /* RAMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D313EE3916E3AC8D00353908 /* RAMViewController.m */; };
 		D313EE3D16E3AC8D00353908 /* RAMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D313EE3B16E3AC8D00353908 /* RAMViewController.xib */; };
+		D313EE4416E3B08900353908 /* objectiveC_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D313EE4316E3B08900353908 /* objectiveC_logo.png */; };
+		D313EE4816E3B12A00353908 /* UIImage+Title.m in Sources */ = {isa = PBXBuildFile; fileRef = D313EE4716E3B12A00353908 /* UIImage+Title.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		D313EE3816E3AC8D00353908 /* RAMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAMViewController.h; sourceTree = "<group>"; };
 		D313EE3916E3AC8D00353908 /* RAMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAMViewController.m; sourceTree = "<group>"; };
 		D313EE3C16E3AC8D00353908 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RAMViewController.xib; sourceTree = "<group>"; };
+		D313EE4316E3B08900353908 /* objectiveC_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = objectiveC_logo.png; sourceTree = "<group>"; };
+		D313EE4616E3B12A00353908 /* UIImage+Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Title.h"; sourceTree = "<group>"; };
+		D313EE4716E3B12A00353908 /* UIImage+Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Title.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,8 @@
 				D313EE3816E3AC8D00353908 /* RAMViewController.h */,
 				D313EE3916E3AC8D00353908 /* RAMViewController.m */,
 				D313EE3B16E3AC8D00353908 /* RAMViewController.xib */,
+				D313EE4916E3B13000353908 /* Categories */,
+				D313EE4516E3B08D00353908 /* Resources */,
 				D313EE2716E3AC8D00353908 /* Supporting Files */,
 			);
 			path = DemoAssociatedObjects;
@@ -105,6 +112,23 @@
 				D313EE3616E3AC8D00353908 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D313EE4516E3B08D00353908 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D313EE4316E3B08900353908 /* objectiveC_logo.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D313EE4916E3B13000353908 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D313EE4616E3B12A00353908 /* UIImage+Title.h */,
+				D313EE4716E3B12A00353908 /* UIImage+Title.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +188,7 @@
 				D313EE3516E3AC8D00353908 /* Default@2x.png in Resources */,
 				D313EE3716E3AC8D00353908 /* Default-568h@2x.png in Resources */,
 				D313EE3D16E3AC8D00353908 /* RAMViewController.xib in Resources */,
+				D313EE4416E3B08900353908 /* objectiveC_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +202,7 @@
 				D313EE2D16E3AC8D00353908 /* main.m in Sources */,
 				D313EE3116E3AC8D00353908 /* RAMAppDelegate.m in Sources */,
 				D313EE3A16E3AC8D00353908 /* RAMViewController.m in Sources */,
+				D313EE4816E3B12A00353908 /* UIImage+Title.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
