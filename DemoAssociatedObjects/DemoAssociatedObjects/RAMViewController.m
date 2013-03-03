@@ -7,6 +7,7 @@
 //
 
 #import "RAMViewController.h"
+#import "UIImage+Title.h"
 
 @interface RAMViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIImage *image = [UIImage imageNamed:@"objectiveC_logo"];
+    image.title = @"Hola gente!";
+    
+    self.imageView.image = image;
+    self.label.text = image.title;
 }
 
 - (void)didReceiveMemoryWarning
